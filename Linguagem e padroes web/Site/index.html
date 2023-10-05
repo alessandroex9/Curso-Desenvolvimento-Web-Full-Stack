@@ -6,29 +6,24 @@
                 Hello World! <!--Conteudo do titulo-->
             </title>
             <!--Criando um estilo-->
-            <style> 
+            <style>
+                body {
+                    background-color: rgb(30, 151, 182);
+                    font-size: large;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: gray;
+                } 
                 
 
-                .h1verde {
-                    color: green;
-                }
-                #p2 {
-                    font-family: 'Times New Roman', Times, serif;
-                    text-align: center;
-                    font-size: x-large;
-                }
-
             </style>
-            <link href="CSS/style.CSS">
+            <link href="CSS/style.CSS" rel="stylesheet"/> <!-- esta chamando o arquivo css-->
     </head>
     <body> <!--Corpo do Site-->
             <h1>Hello World!</h1><!--titulo do texto-->
 
             <h1 class="h1verde">Hello World!</h1><!--Criacao de uma classe para modificar o estilo--> 
 
-            <p><!--Criacao de paragrafo-->
-                Este é texto é um paragrafo.
-            </p>
+            
 
             <p id="p2"><!--Criando id para modificar o estilo-->
                 Inserindo uma <br/> imagem no meu site! <!--Esse br no meio é para quebrar a linha-->
@@ -37,5 +32,10 @@
             <hr/><!--Serve para criar uma linha de separação-->
 
             <a href="./HTML/pagina2.html">Pagina 2</a>
+    <div>
+        <p><!--Criacao de paragrafo-->
+            Este é texto é um paragrafo.
+        </p>
+    </div>        
     </body>
 </html>
